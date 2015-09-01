@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C73F5DCF1B95718C001329D0 /* CheckEmialValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = C73F5DCE1B95718C001329D0 /* CheckEmialValidation.m */; };
 		C7DE86081B9545890086D078 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DE86071B9545890086D078 /* main.m */; };
 		C7DE860B1B9545890086D078 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DE860A1B9545890086D078 /* AppDelegate.m */; };
 		C7DE860E1B9545890086D078 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DE860D1B9545890086D078 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C73F5DCD1B95718C001329D0 /* CheckEmialValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckEmialValidation.h; sourceTree = "<group>"; };
+		C73F5DCE1B95718C001329D0 /* CheckEmialValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckEmialValidation.m; sourceTree = "<group>"; };
 		C7DE86021B9545890086D078 /* exercies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exercies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DE86061B9545890086D078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7DE86071B9545890086D078 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,6 +72,8 @@
 		C7DE85F91B9545890086D078 = {
 			isa = PBXGroup;
 			children = (
+				C73F5DCD1B95718C001329D0 /* CheckEmialValidation.h */,
+				C73F5DCE1B95718C001329D0 /* CheckEmialValidation.m */,
 				C7DE862E1B9549C30086D078 /* findingSiblings.h */,
 				C7DE862F1B9549C30086D078 /* findingSiblings.m */,
 				C7DE862B1B95459A0086D078 /* Exercise.h */,
@@ -229,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C73F5DCF1B95718C001329D0 /* CheckEmialValidation.m in Sources */,
 				C7DE860E1B9545890086D078 /* ViewController.m in Sources */,
 				C7DE86301B9549C30086D078 /* findingSiblings.m in Sources */,
 				C7DE862D1B95459A0086D078 /* Exercise.m in Sources */,
@@ -430,6 +436,7 @@
 				C7DE86271B9545890086D078 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7DE86281B9545890086D078 /* Build configuration list for PBXNativeTarget "exerciesTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +445,7 @@
 				C7DE862A1B9545890086D078 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
