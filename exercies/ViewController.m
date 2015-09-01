@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Exercise.h"
 #import "findingSiblings.h"
+#import "CheckEmialValidation.h"
 
 @interface ViewController ()
 
@@ -27,6 +28,9 @@
     
     findingSiblings* exer2 = [[findingSiblings alloc] init];
     [exer2 findSiblings];
+    
+    CheckEmialValidation* exer3 = [[CheckEmialValidation alloc] init];
+    [exer3 validateExample];
 }
 
 - (void)didReceiveMemoryWarning {
