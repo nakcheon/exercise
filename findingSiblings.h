@@ -10,4 +10,6 @@
 
 @interface findingSiblings : NSObject
 
+-(void)findSiblings;
+
 @end

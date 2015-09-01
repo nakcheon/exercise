@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Exercise.h"
+#import "findingSiblings.h"
 
 @interface ViewController ()
 
@@ -23,6 +24,9 @@
     [exer1 interSectExercise];
     [exer1 unionExercise];
     [exer1 reverseString];
+    
+    findingSiblings* exer2 = [[findingSiblings alloc] init];
+    [exer2 findSiblings];
 }
 
 - (void)didReceiveMemoryWarning {
