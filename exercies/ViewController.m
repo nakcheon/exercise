@@ -12,6 +12,7 @@
 #import "CheckEmialValidation.h"
 #import "GenerateParenthesis.h"
 #import "MakePermutation.h"
+#import "QueueWithTwoStacks.h"
 
 @interface ViewController ()
 
@@ -46,6 +47,26 @@
     [arrayCharacters addObject:@"d"];
     NSArray* arrayResult = [exer5 makePermutation:arrayCharacters];
     NSLog(@"%@", arrayResult);
+    
+    QueueWithTwoStacks* exer6 = [[QueueWithTwoStacks alloc] init];
+    {
+        [exer6 queue:@"1"];
+        [exer6 queue:@"2"];
+        [exer6 queue:@"3"];
+        [exer6 queue:@"4"];
+        [exer6 queue:@"5"];
+        [exer6 queue:@"6"];
+        NSString* pop = [exer6 dequeue];
+        NSLog(@"dequeue: %@", pop);
+        [exer6 queue:@"7"];
+        [exer6 queue:@"8"];
+        [exer6 queue:@"9"];
+        [exer6 queue:@"10"];
+        while (![exer6 isEmpty]) {
+            NSString* pop = [exer6 dequeue];
+            NSLog(@"dequeue: %@", pop);
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning {

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1B3D750B1BAF316900157059 /* GenerateParenthesis.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3D750A1BAF316900157059 /* GenerateParenthesis.m */; settings = {ASSET_TAGS = (); }; };
 		1BFF53351BCE6AF30066CB08 /* MakePermutation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53341BCE6AF30066CB08 /* MakePermutation.m */; settings = {ASSET_TAGS = (); }; };
+		1BFF53381BCE92D50066CB08 /* QueueWithTwoStacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53371BCE92D50066CB08 /* QueueWithTwoStacks.m */; settings = {ASSET_TAGS = (); }; };
+		1BFF533B1BCE92DE0066CB08 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF533A1BCE92DE0066CB08 /* Stack.m */; settings = {ASSET_TAGS = (); }; };
 		C73F5DCF1B95718C001329D0 /* CheckEmialValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = C73F5DCE1B95718C001329D0 /* CheckEmialValidation.m */; };
 		C7DE86081B9545890086D078 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DE86071B9545890086D078 /* main.m */; };
 		C7DE860B1B9545890086D078 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DE860A1B9545890086D078 /* AppDelegate.m */; };
@@ -36,6 +38,10 @@
 		1B3D750A1BAF316900157059 /* GenerateParenthesis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateParenthesis.m; sourceTree = "<group>"; };
 		1BFF53331BCE6AF30066CB08 /* MakePermutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakePermutation.h; sourceTree = "<group>"; };
 		1BFF53341BCE6AF30066CB08 /* MakePermutation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakePermutation.m; sourceTree = "<group>"; };
+		1BFF53361BCE92D50066CB08 /* QueueWithTwoStacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueueWithTwoStacks.h; sourceTree = "<group>"; };
+		1BFF53371BCE92D50066CB08 /* QueueWithTwoStacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueueWithTwoStacks.m; sourceTree = "<group>"; };
+		1BFF53391BCE92DE0066CB08 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		1BFF533A1BCE92DE0066CB08 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
 		C73F5DCD1B95718C001329D0 /* CheckEmialValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckEmialValidation.h; sourceTree = "<group>"; };
 		C73F5DCE1B95718C001329D0 /* CheckEmialValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckEmialValidation.m; sourceTree = "<group>"; };
 		C7DE86021B9545890086D078 /* exercies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exercies.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +99,10 @@
 		C7DE85F91B9545890086D078 = {
 			isa = PBXGroup;
 			children = (
+				1BFF53391BCE92DE0066CB08 /* Stack.h */,
+				1BFF533A1BCE92DE0066CB08 /* Stack.m */,
+				1BFF53361BCE92D50066CB08 /* QueueWithTwoStacks.h */,
+				1BFF53371BCE92D50066CB08 /* QueueWithTwoStacks.m */,
 				1BFF53331BCE6AF30066CB08 /* MakePermutation.h */,
 				1BFF53341BCE6AF30066CB08 /* MakePermutation.m */,
 				1B3D75091BAF316900157059 /* GenerateParenthesis.h */,
@@ -263,10 +273,12 @@
 				C73F5DCF1B95718C001329D0 /* CheckEmialValidation.m in Sources */,
 				C7DE860E1B9545890086D078 /* ViewController.m in Sources */,
 				1BFF53351BCE6AF30066CB08 /* MakePermutation.m in Sources */,
+				1BFF53381BCE92D50066CB08 /* QueueWithTwoStacks.m in Sources */,
 				C7DE86301B9549C30086D078 /* findingSiblings.m in Sources */,
 				1B3D750B1BAF316900157059 /* GenerateParenthesis.m in Sources */,
 				C7DE862D1B95459A0086D078 /* Exercise.m in Sources */,
 				C7DE860B1B9545890086D078 /* AppDelegate.m in Sources */,
+				1BFF533B1BCE92DE0066CB08 /* Stack.m in Sources */,
 				C7DE86081B9545890086D078 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
