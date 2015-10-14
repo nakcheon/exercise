@@ -24,6 +24,7 @@
 
 -(NSArray*)makePermutation:(NSArray*)inputCharacters
 {
+    // init
     _arrayInputCharacters = [NSArray arrayWithArray:inputCharacters];
     _arrayUsingFlags = [[NSMutableArray alloc] init];
     for (int i = 0; i < inputCharacters.count; ++i) {
@@ -31,6 +32,8 @@
     }
     _arrayPermutations = [[NSMutableArray alloc] init];
     _strBuffer = @"";
+    
+    // start
     [self privateRunPermutation:0];
     
     return _arrayPermutations;
@@ -50,12 +53,16 @@
         }
         // add character
         _strBuffer = [_strBuffer stringByAppendingString:_arrayInputCharacters[i]];
+        
         // set using
         _arrayUsingFlags[i] = [NSNumber numberWithBool:YES];
+        
         // add level
         [self privateRunPermutation:(int)_strBuffer.length];
+        
         // set not using
         _arrayUsingFlags[i] = [NSNumber numberWithBool:NO];
+        
         // subtract character
         _strBuffer = [_strBuffer substringWithRange:NSMakeRange(0, _strBuffer.length-1)];
     }
@@ -63,6 +70,7 @@
 
 -(BOOL)privateCheckValidation:(NSString*)bufferToAdd
 {
+    // check duplicated item
     if ([_arrayPermutations containsObject:bufferToAdd]) {
         return NO;
     }
