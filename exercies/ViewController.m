@@ -10,6 +10,7 @@
 #import "Exercise.h"
 #import "findingSiblings.h"
 #import "CheckEmialValidation.h"
+#import "GenerateParenthesis.h"
 
 @interface ViewController ()
 
@@ -31,6 +32,10 @@
     
     CheckEmialValidation* exer3 = [[CheckEmialValidation alloc] init];
     [exer3 validateExample];
+    
+    GenerateParenthesis* exer4 = [[GenerateParenthesis alloc] init];
+    [exer4 initialize];
+    [exer4 startWithCount:3];
 }
 
 - (void)didReceiveMemoryWarning {
