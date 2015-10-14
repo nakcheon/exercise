@@ -13,6 +13,8 @@
 #import "GenerateParenthesis.h"
 #import "MakePermutation.h"
 #import "QueueWithTwoStacks.h"
+#import "NCQuickSort.h"
+#import "NCSortObject.h"
 
 @interface ViewController ()
 
@@ -65,6 +67,25 @@
         while (![exer6 isEmpty]) {
             NSString* pop = [exer6 dequeue];
             NSLog(@"dequeue: %@", pop);
+        }
+    }
+    
+    NCQuickSort* quickSort = [[NCQuickSort alloc] init];
+    {
+        // insert
+        int n = 10 ;
+        while (n-- > 0) {
+            NCSortObject* object = [[NCSortObject alloc] init];
+            object.objectValue = arc4random() % 20;
+            [quickSort insetValue:object];
+        }
+        
+        // sort
+        [quickSort startSort];
+        
+        // print
+        for (NCSortObject* object in quickSort.arrarListOfElementsToSort) {
+            NSLog(@"sorted result = %d", object.objectValue);
         }
     }
 }
