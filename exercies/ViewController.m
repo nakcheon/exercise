@@ -11,6 +11,7 @@
 #import "findingSiblings.h"
 #import "CheckEmialValidation.h"
 #import "GenerateParenthesis.h"
+#import "MakePermutation.h"
 
 @interface ViewController ()
 
@@ -36,6 +37,15 @@
     GenerateParenthesis* exer4 = [[GenerateParenthesis alloc] init];
     [exer4 initialize];
     [exer4 startWithCount:3];
+    
+    MakePermutation* exer5 = [[MakePermutation alloc] init];
+    NSMutableArray* arrayCharacters = [[NSMutableArray alloc] init];
+    [arrayCharacters addObject:@"a"];
+    [arrayCharacters addObject:@"b"];
+    [arrayCharacters addObject:@"c"];
+    [arrayCharacters addObject:@"d"];
+    NSArray* arrayResult = [exer5 makePermutation:arrayCharacters];
+    NSLog(@"%@", arrayResult);
 }
 
 - (void)didReceiveMemoryWarning {
