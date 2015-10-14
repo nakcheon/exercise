@@ -71,12 +71,7 @@
             [self privateSwapElementsWithLeft:left right:right];
         }
         
-        // end condition
-        else {
-            break;
-        }
-        
-    } while (YES);
+    } while (left < right);
     
     _arrarListOfElementsToSort[nPivotIndex] = _arrarListOfElementsToSort[right];
     _arrarListOfElementsToSort[right] = idValue;
