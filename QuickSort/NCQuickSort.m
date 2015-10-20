@@ -8,6 +8,15 @@
 
 #import "NCQuickSort.h"
 
+@interface NCQuickSort (privateMethods)
+-(void)privateSortArrayWithLeft:(int)left
+                          right:(int)right;
+-(int)privatePartitionWithLeft:(int)left
+                         right:(int)right;
+-(void)privateSwapElementsWithLeft:(int)left
+                             right:(int)right;
+@end
+
 @implementation NCQuickSort
 
 -(void)insetValue:(id<NCSortObjectProtocolDelegate>)element;

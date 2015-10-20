@@ -8,14 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1B3D750B1BAF316900157059 /* GenerateParenthesis.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3D750A1BAF316900157059 /* GenerateParenthesis.m */; settings = {ASSET_TAGS = (); }; };
+		1BFD07C61BD68B48008CD744 /* NCMergeSortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFD07C51BD68B48008CD744 /* NCMergeSortTests.m */; settings = {ASSET_TAGS = (); }; };
+		1BFD07C71BD68B54008CD744 /* NCMergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53941BCEC8730066CB08 /* NCMergeSort.m */; settings = {ASSET_TAGS = (); }; };
+		1BFD07C81BD68B5A008CD744 /* NCSortObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53901BCEC85A0066CB08 /* NCSortObject.m */; settings = {ASSET_TAGS = (); }; };
 		1BFF53351BCE6AF30066CB08 /* MakePermutation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53341BCE6AF30066CB08 /* MakePermutation.m */; settings = {ASSET_TAGS = (); }; };
 		1BFF53381BCE92D50066CB08 /* QueueWithTwoStacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53371BCE92D50066CB08 /* QueueWithTwoStacks.m */; settings = {ASSET_TAGS = (); }; };
 		1BFF533B1BCE92DE0066CB08 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF533A1BCE92DE0066CB08 /* Stack.m */; settings = {ASSET_TAGS = (); }; };
-		1BFF53831BCEB95C0066CB08 /* NCSortObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53811BCEB95C0066CB08 /* NCSortObject.m */; settings = {ASSET_TAGS = (); }; };
 		1BFF53861BCEB97A0066CB08 /* NCQuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53851BCEB97A0066CB08 /* NCQuickSort.m */; settings = {ASSET_TAGS = (); }; };
-		1BFF53891BCEBDA00066CB08 /* NCSortObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53811BCEB95C0066CB08 /* NCSortObject.m */; settings = {ASSET_TAGS = (); }; };
 		1BFF538A1BCEBDA40066CB08 /* NCQuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53851BCEB97A0066CB08 /* NCQuickSort.m */; settings = {ASSET_TAGS = (); }; };
 		1BFF538C1BCEC6440066CB08 /* NCQuickSortTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53871BCEBD970066CB08 /* NCQuickSortTest.m */; settings = {ASSET_TAGS = (); }; };
+		1BFF53921BCEC85A0066CB08 /* NCSortObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53901BCEC85A0066CB08 /* NCSortObject.m */; settings = {ASSET_TAGS = (); }; };
+		1BFF53951BCEC8730066CB08 /* NCMergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53941BCEC8730066CB08 /* NCMergeSort.m */; settings = {ASSET_TAGS = (); }; };
 		C73F5DCF1B95718C001329D0 /* CheckEmialValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = C73F5DCE1B95718C001329D0 /* CheckEmialValidation.m */; };
 		C7DE86081B9545890086D078 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DE86071B9545890086D078 /* main.m */; };
 		C7DE860B1B9545890086D078 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DE860A1B9545890086D078 /* AppDelegate.m */; };
@@ -23,7 +26,7 @@
 		C7DE86111B9545890086D078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7DE860F1B9545890086D078 /* Main.storyboard */; };
 		C7DE86131B9545890086D078 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7DE86121B9545890086D078 /* Images.xcassets */; };
 		C7DE86161B9545890086D078 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7DE86141B9545890086D078 /* LaunchScreen.xib */; };
-		C7DE86221B9545890086D078 /* exerciesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DE86211B9545890086D078 /* exerciesTests.m */; };
+		C7DE86221B9545890086D078 /* ExerciseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DE86211B9545890086D078 /* ExerciseTests.m */; };
 		C7DE862D1B95459A0086D078 /* Exercise.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DE862C1B95459A0086D078 /* Exercise.m */; };
 		C7DE86301B9549C30086D078 /* findingSiblings.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DE862F1B9549C30086D078 /* findingSiblings.m */; };
 /* End PBXBuildFile section */
@@ -41,18 +44,21 @@
 /* Begin PBXFileReference section */
 		1B3D75091BAF316900157059 /* GenerateParenthesis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenerateParenthesis.h; sourceTree = "<group>"; };
 		1B3D750A1BAF316900157059 /* GenerateParenthesis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateParenthesis.m; sourceTree = "<group>"; };
+		1BFD07C51BD68B48008CD744 /* NCMergeSortTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NCMergeSortTests.m; path = ../MergeSort/NCMergeSortTests.m; sourceTree = "<group>"; };
 		1BFF53331BCE6AF30066CB08 /* MakePermutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakePermutation.h; sourceTree = "<group>"; };
 		1BFF53341BCE6AF30066CB08 /* MakePermutation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakePermutation.m; sourceTree = "<group>"; };
 		1BFF53361BCE92D50066CB08 /* QueueWithTwoStacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueueWithTwoStacks.h; sourceTree = "<group>"; };
 		1BFF53371BCE92D50066CB08 /* QueueWithTwoStacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueueWithTwoStacks.m; sourceTree = "<group>"; };
 		1BFF53391BCE92DE0066CB08 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		1BFF533A1BCE92DE0066CB08 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
-		1BFF53801BCEB95C0066CB08 /* NCSortObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCSortObject.h; sourceTree = "<group>"; };
-		1BFF53811BCEB95C0066CB08 /* NCSortObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCSortObject.m; sourceTree = "<group>"; };
-		1BFF53821BCEB95C0066CB08 /* NCSortObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCSortObjectProtocol.h; sourceTree = "<group>"; };
 		1BFF53841BCEB97A0066CB08 /* NCQuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCQuickSort.h; sourceTree = "<group>"; };
 		1BFF53851BCEB97A0066CB08 /* NCQuickSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCQuickSort.m; sourceTree = "<group>"; };
 		1BFF53871BCEBD970066CB08 /* NCQuickSortTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NCQuickSortTest.m; path = QuickSort/NCQuickSortTest.m; sourceTree = SOURCE_ROOT; };
+		1BFF538F1BCEC85A0066CB08 /* NCSortObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCSortObject.h; sourceTree = "<group>"; };
+		1BFF53901BCEC85A0066CB08 /* NCSortObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCSortObject.m; sourceTree = "<group>"; };
+		1BFF53911BCEC85A0066CB08 /* NCSortObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCSortObjectProtocol.h; sourceTree = "<group>"; };
+		1BFF53931BCEC8730066CB08 /* NCMergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMergeSort.h; sourceTree = "<group>"; };
+		1BFF53941BCEC8730066CB08 /* NCMergeSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMergeSort.m; sourceTree = "<group>"; };
 		C73F5DCD1B95718C001329D0 /* CheckEmialValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckEmialValidation.h; sourceTree = "<group>"; };
 		C73F5DCE1B95718C001329D0 /* CheckEmialValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckEmialValidation.m; sourceTree = "<group>"; };
 		C7DE86021B9545890086D078 /* exercies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exercies.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,7 +73,7 @@
 		C7DE86151B9545890086D078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C7DE861B1B9545890086D078 /* exerciesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = exerciesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7DE86201B9545890086D078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7DE86211B9545890086D078 /* exerciesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = exerciesTests.m; sourceTree = "<group>"; };
+		C7DE86211B9545890086D078 /* ExerciseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExerciseTests.m; sourceTree = "<group>"; };
 		C7DE862B1B95459A0086D078 /* Exercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise.h; sourceTree = "<group>"; };
 		C7DE862C1B95459A0086D078 /* Exercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercise.m; sourceTree = "<group>"; };
 		C7DE862E1B9549C30086D078 /* findingSiblings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = findingSiblings.h; sourceTree = "<group>"; };
@@ -95,18 +101,36 @@
 		1BFF537F1BCEB95C0066CB08 /* QuickSort */ = {
 			isa = PBXGroup;
 			children = (
-				1BFF53801BCEB95C0066CB08 /* NCSortObject.h */,
-				1BFF53811BCEB95C0066CB08 /* NCSortObject.m */,
-				1BFF53821BCEB95C0066CB08 /* NCSortObjectProtocol.h */,
 				1BFF53841BCEB97A0066CB08 /* NCQuickSort.h */,
 				1BFF53851BCEB97A0066CB08 /* NCQuickSort.m */,
 			);
 			path = QuickSort;
 			sourceTree = "<group>";
 		};
+		1BFF538D1BCEC8290066CB08 /* MergeSort */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF53931BCEC8730066CB08 /* NCMergeSort.h */,
+				1BFF53941BCEC8730066CB08 /* NCMergeSort.m */,
+			);
+			path = MergeSort;
+			sourceTree = "<group>";
+		};
+		1BFF538E1BCEC85A0066CB08 /* SortCommon */ = {
+			isa = PBXGroup;
+			children = (
+				1BFF538F1BCEC85A0066CB08 /* NCSortObject.h */,
+				1BFF53901BCEC85A0066CB08 /* NCSortObject.m */,
+				1BFF53911BCEC85A0066CB08 /* NCSortObjectProtocol.h */,
+			);
+			path = SortCommon;
+			sourceTree = "<group>";
+		};
 		C7DE85F91B9545890086D078 = {
 			isa = PBXGroup;
 			children = (
+				1BFF538E1BCEC85A0066CB08 /* SortCommon */,
+				1BFF538D1BCEC8290066CB08 /* MergeSort */,
 				1BFF537F1BCEB95C0066CB08 /* QuickSort */,
 				1BFF53391BCE92DE0066CB08 /* Stack.h */,
 				1BFF533A1BCE92DE0066CB08 /* Stack.m */,
@@ -164,8 +188,9 @@
 		C7DE861E1B9545890086D078 /* exerciesTests */ = {
 			isa = PBXGroup;
 			children = (
+				1BFD07C51BD68B48008CD744 /* NCMergeSortTests.m */,
 				1BFF53871BCEBD970066CB08 /* NCQuickSortTest.m */,
-				C7DE86211B9545890086D078 /* exerciesTests.m */,
+				C7DE86211B9545890086D078 /* ExerciseTests.m */,
 				C7DE861F1B9545890086D078 /* Supporting Files */,
 			);
 			path = exerciesTests;
@@ -285,10 +310,11 @@
 				1BFF53381BCE92D50066CB08 /* QueueWithTwoStacks.m in Sources */,
 				C7DE86301B9549C30086D078 /* findingSiblings.m in Sources */,
 				1B3D750B1BAF316900157059 /* GenerateParenthesis.m in Sources */,
+				1BFF53921BCEC85A0066CB08 /* NCSortObject.m in Sources */,
 				C7DE862D1B95459A0086D078 /* Exercise.m in Sources */,
 				C7DE860B1B9545890086D078 /* AppDelegate.m in Sources */,
 				1BFF533B1BCE92DE0066CB08 /* Stack.m in Sources */,
-				1BFF53831BCEB95C0066CB08 /* NCSortObject.m in Sources */,
+				1BFF53951BCEC8730066CB08 /* NCMergeSort.m in Sources */,
 				1BFF53861BCEB97A0066CB08 /* NCQuickSort.m in Sources */,
 				C7DE86081B9545890086D078 /* main.m in Sources */,
 			);
@@ -298,10 +324,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BFF53891BCEBDA00066CB08 /* NCSortObject.m in Sources */,
 				1BFF538A1BCEBDA40066CB08 /* NCQuickSort.m in Sources */,
+				1BFD07C81BD68B5A008CD744 /* NCSortObject.m in Sources */,
+				1BFD07C71BD68B54008CD744 /* NCMergeSort.m in Sources */,
+				1BFD07C61BD68B48008CD744 /* NCMergeSortTests.m in Sources */,
 				1BFF538C1BCEC6440066CB08 /* NCQuickSortTest.m in Sources */,
-				C7DE86221B9545890086D078 /* exerciesTests.m in Sources */,
+				C7DE86221B9545890086D078 /* ExerciseTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

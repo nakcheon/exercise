@@ -11,4 +11,5 @@
 
 @interface NCSortObject : NSObject <NCSortObjectProtocolDelegate>
 @property (nonatomic, assign) int objectValue;
+-(void)deepCopy:(id<NCSortObjectProtocolDelegate>)rightObject;
 @end

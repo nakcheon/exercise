@@ -10,4 +10,9 @@
 
 @implementation NCSortObject
 
+-(void)deepCopy:(id<NCSortObjectProtocolDelegate>)rightObject
+{
+    self.objectValue = rightObject.objectValue;
+}
+
 @end
