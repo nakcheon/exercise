@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B3D750B1BAF316900157059 /* GenerateParenthesis.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3D750A1BAF316900157059 /* GenerateParenthesis.m */; settings = {ASSET_TAGS = (); }; };
-		1BFD07C61BD68B48008CD744 /* NCMergeSortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFD07C51BD68B48008CD744 /* NCMergeSortTests.m */; settings = {ASSET_TAGS = (); }; };
-		1BFD07C71BD68B54008CD744 /* NCMergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53941BCEC8730066CB08 /* NCMergeSort.m */; settings = {ASSET_TAGS = (); }; };
-		1BFD07C81BD68B5A008CD744 /* NCSortObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53901BCEC85A0066CB08 /* NCSortObject.m */; settings = {ASSET_TAGS = (); }; };
-		1BFF53351BCE6AF30066CB08 /* MakePermutation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53341BCE6AF30066CB08 /* MakePermutation.m */; settings = {ASSET_TAGS = (); }; };
-		1BFF53381BCE92D50066CB08 /* QueueWithTwoStacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53371BCE92D50066CB08 /* QueueWithTwoStacks.m */; settings = {ASSET_TAGS = (); }; };
-		1BFF533B1BCE92DE0066CB08 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF533A1BCE92DE0066CB08 /* Stack.m */; settings = {ASSET_TAGS = (); }; };
-		1BFF53861BCEB97A0066CB08 /* NCQuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53851BCEB97A0066CB08 /* NCQuickSort.m */; settings = {ASSET_TAGS = (); }; };
-		1BFF538A1BCEBDA40066CB08 /* NCQuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53851BCEB97A0066CB08 /* NCQuickSort.m */; settings = {ASSET_TAGS = (); }; };
-		1BFF538C1BCEC6440066CB08 /* NCQuickSortTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53871BCEBD970066CB08 /* NCQuickSortTest.m */; settings = {ASSET_TAGS = (); }; };
-		1BFF53921BCEC85A0066CB08 /* NCSortObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53901BCEC85A0066CB08 /* NCSortObject.m */; settings = {ASSET_TAGS = (); }; };
-		1BFF53951BCEC8730066CB08 /* NCMergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53941BCEC8730066CB08 /* NCMergeSort.m */; settings = {ASSET_TAGS = (); }; };
+		1B3D750B1BAF316900157059 /* GenerateParenthesis.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3D750A1BAF316900157059 /* GenerateParenthesis.m */; };
+		1BBD41FA1C00C54C009DB8AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBD41F91C00C54C009DB8AC /* CoreGraphics.framework */; };
+		1BBD42001C00C629009DB8AC /* CheckInterSectionBtwTwoRectangles.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD41FF1C00C629009DB8AC /* CheckInterSectionBtwTwoRectangles.m */; };
+		1BBD42031C00C780009DB8AC /* NCLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD42021C00C780009DB8AC /* NCLine.m */; };
+		1BBD42061C00C7B6009DB8AC /* NCRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBD42051C00C7B6009DB8AC /* NCRectangle.m */; };
+		1BFD07C61BD68B48008CD744 /* NCMergeSortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFD07C51BD68B48008CD744 /* NCMergeSortTests.m */; };
+		1BFD07C71BD68B54008CD744 /* NCMergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53941BCEC8730066CB08 /* NCMergeSort.m */; };
+		1BFD07C81BD68B5A008CD744 /* NCSortObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53901BCEC85A0066CB08 /* NCSortObject.m */; };
+		1BFF53351BCE6AF30066CB08 /* MakePermutation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53341BCE6AF30066CB08 /* MakePermutation.m */; };
+		1BFF53381BCE92D50066CB08 /* QueueWithTwoStacks.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53371BCE92D50066CB08 /* QueueWithTwoStacks.m */; };
+		1BFF533B1BCE92DE0066CB08 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF533A1BCE92DE0066CB08 /* Stack.m */; };
+		1BFF53861BCEB97A0066CB08 /* NCQuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53851BCEB97A0066CB08 /* NCQuickSort.m */; };
+		1BFF538A1BCEBDA40066CB08 /* NCQuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53851BCEB97A0066CB08 /* NCQuickSort.m */; };
+		1BFF538C1BCEC6440066CB08 /* NCQuickSortTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53871BCEBD970066CB08 /* NCQuickSortTest.m */; };
+		1BFF53921BCEC85A0066CB08 /* NCSortObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53901BCEC85A0066CB08 /* NCSortObject.m */; };
+		1BFF53951BCEC8730066CB08 /* NCMergeSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFF53941BCEC8730066CB08 /* NCMergeSort.m */; };
 		C73F5DCF1B95718C001329D0 /* CheckEmialValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = C73F5DCE1B95718C001329D0 /* CheckEmialValidation.m */; };
 		C7DE86081B9545890086D078 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DE86071B9545890086D078 /* main.m */; };
 		C7DE860B1B9545890086D078 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DE860A1B9545890086D078 /* AppDelegate.m */; };
@@ -44,6 +48,13 @@
 /* Begin PBXFileReference section */
 		1B3D75091BAF316900157059 /* GenerateParenthesis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenerateParenthesis.h; sourceTree = "<group>"; };
 		1B3D750A1BAF316900157059 /* GenerateParenthesis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateParenthesis.m; sourceTree = "<group>"; };
+		1BBD41F91C00C54C009DB8AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1BBD41FE1C00C629009DB8AC /* CheckInterSectionBtwTwoRectangles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckInterSectionBtwTwoRectangles.h; sourceTree = "<group>"; };
+		1BBD41FF1C00C629009DB8AC /* CheckInterSectionBtwTwoRectangles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckInterSectionBtwTwoRectangles.m; sourceTree = "<group>"; };
+		1BBD42011C00C780009DB8AC /* NCLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCLine.h; sourceTree = "<group>"; };
+		1BBD42021C00C780009DB8AC /* NCLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCLine.m; sourceTree = "<group>"; };
+		1BBD42041C00C7B6009DB8AC /* NCRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCRectangle.h; sourceTree = "<group>"; };
+		1BBD42051C00C7B6009DB8AC /* NCRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCRectangle.m; sourceTree = "<group>"; };
 		1BFD07C51BD68B48008CD744 /* NCMergeSortTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NCMergeSortTests.m; path = ../MergeSort/NCMergeSortTests.m; sourceTree = "<group>"; };
 		1BFF53331BCE6AF30066CB08 /* MakePermutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakePermutation.h; sourceTree = "<group>"; };
 		1BFF53341BCE6AF30066CB08 /* MakePermutation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakePermutation.m; sourceTree = "<group>"; };
@@ -85,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BBD41FA1C00C54C009DB8AC /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +110,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BBD41FB1C00C558009DB8AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BBD41F91C00C54C009DB8AC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BBD41FD1C00C629009DB8AC /* IntersectionRectangles */ = {
+			isa = PBXGroup;
+			children = (
+				1BBD41FE1C00C629009DB8AC /* CheckInterSectionBtwTwoRectangles.h */,
+				1BBD41FF1C00C629009DB8AC /* CheckInterSectionBtwTwoRectangles.m */,
+				1BBD42011C00C780009DB8AC /* NCLine.h */,
+				1BBD42021C00C780009DB8AC /* NCLine.m */,
+				1BBD42041C00C7B6009DB8AC /* NCRectangle.h */,
+				1BBD42051C00C7B6009DB8AC /* NCRectangle.m */,
+			);
+			path = IntersectionRectangles;
+			sourceTree = "<group>";
+		};
 		1BFF537F1BCEB95C0066CB08 /* QuickSort */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +162,7 @@
 		C7DE85F91B9545890086D078 = {
 			isa = PBXGroup;
 			children = (
+				1BBD41FD1C00C629009DB8AC /* IntersectionRectangles */,
 				1BFF538E1BCEC85A0066CB08 /* SortCommon */,
 				1BFF538D1BCEC8290066CB08 /* MergeSort */,
 				1BFF537F1BCEB95C0066CB08 /* QuickSort */,
@@ -148,6 +182,7 @@
 				C7DE862C1B95459A0086D078 /* Exercise.m */,
 				C7DE86041B9545890086D078 /* exercies */,
 				C7DE861E1B9545890086D078 /* exerciesTests */,
+				1BBD41FB1C00C558009DB8AC /* Frameworks */,
 				C7DE86031B9545890086D078 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -316,7 +351,10 @@
 				1BFF533B1BCE92DE0066CB08 /* Stack.m in Sources */,
 				1BFF53951BCEC8730066CB08 /* NCMergeSort.m in Sources */,
 				1BFF53861BCEB97A0066CB08 /* NCQuickSort.m in Sources */,
+				1BBD42001C00C629009DB8AC /* CheckInterSectionBtwTwoRectangles.m in Sources */,
 				C7DE86081B9545890086D078 /* main.m in Sources */,
+				1BBD42061C00C7B6009DB8AC /* NCRectangle.m in Sources */,
+				1BBD42031C00C780009DB8AC /* NCLine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

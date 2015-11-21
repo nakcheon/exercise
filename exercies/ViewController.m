@@ -15,6 +15,7 @@
 #import "QueueWithTwoStacks.h"
 #import "NCQuickSort.h"
 #import "NCSortObject.h"
+#import "CheckInterSectionBtwTwoRectangles.h"
 
 @interface ViewController ()
 
@@ -88,6 +89,62 @@
             NSLog(@"sorted result = %d", object.objectValue);
         }
     }
+    
+    // intersection
+    CheckInterSectionBtwTwoRectangles* interSection = [[CheckInterSectionBtwTwoRectangles alloc] init];
+    {
+        NSLog(@"===================================================");
+        NSLog(@"1.right bottom");
+        int ret1 = [interSection solutionWithK:-4 L:1
+                                             M:2 N:6
+                                             P:0 Q:-1
+                                             R:4 S:3]; // right bottom
+        NSLog(@"1.intersection - right bottom = %d", ret1);
+    }
+    {
+        NSLog(@"===================================================");
+        NSLog(@"2.left bottom");
+        int ret1 = [interSection solutionWithK:-4 L:1
+                                             M:2 N:6
+                                             P:-6 Q:-2
+                                             R:-2 S:2]; // left bottom
+        NSLog(@"2.intersection - left bottom = %d", ret1);
+    }
+    {
+        NSLog(@"===================================================");
+        NSLog(@"3.right upper");
+        int ret1 = [interSection solutionWithK:-4 L:1
+                                             M:2 N:6
+                                             P:1 Q:4
+                                             R:5 S:8]; // right upper
+        NSLog(@"3.intersection - right upper = %d", ret1);
+    }
+    {
+        NSLog(@"===================================================");
+        NSLog(@"4.left upper");
+        int ret1 = [interSection solutionWithK:-4 L:1
+                                             M:2 N:6
+                                             P:-6 Q:4
+                                             R:-2 S:8]; // left upper
+        NSLog(@"4.intersection - left upper = %d", ret1);
+    }
+    {
+        NSLog(@"===================================================");
+        NSLog(@"5.bottom");
+        int ret1 = [interSection solutionWithK:-4 L:1
+                                             M:2 N:6
+                                             P:-6 Q:-2
+                                             R:5 S:2]; // bottom
+        NSLog(@"4.intersection - bottom = %d", ret1);
+    }
+    
+    NSLog(@"===================================================");
+    
+    int ret2 = [interSection solutionWithK:0 L:0 M:1000 N:1000 P:1 Q:1 R:10 S:10];
+    NSLog(@"2.intersection - include second = %d", ret2);
+    
+    int ret3 = [interSection solutionWithK:0 L:0 M:1000 N:1000 P:-10 Q:-10 R:100000 S:100000];
+    NSLog(@"3.intersection - include first = %d", ret3);
 }
 
 - (void)didReceiveMemoryWarning {
