@@ -12,4 +12,5 @@
 @interface NCLine : NSObject
 @property (nonatomic, assign) CGPoint coord1;
 @property (nonatomic, assign) CGPoint coord2;
+-(void)initialize;
 @end

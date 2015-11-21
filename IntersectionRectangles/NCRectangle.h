@@ -14,4 +14,7 @@
 @property (nonatomic, retain) NCLine* line2;
 @property (nonatomic, retain) NCLine* line3;
 @property (nonatomic, retain) NCLine* line4;
+@property (nonatomic, retain) NSMutableArray* arrayLines;
+
+-(void)initialize;
 @end

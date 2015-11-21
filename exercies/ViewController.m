@@ -94,12 +94,21 @@
     CheckInterSectionBtwTwoRectangles* interSection = [[CheckInterSectionBtwTwoRectangles alloc] init];
     {
         NSLog(@"===================================================");
+        NSLog(@"0.not meet");
+        int ret1 = [interSection solutionWithK:-4 L:1
+                                             M:2 N:6
+                                             P:0 Q:-4
+                                             R:4 S:0]; // not meet
+        NSLog(@"0.not meet = %d", ret1); // => 0
+    }
+    {
+        NSLog(@"===================================================");
         NSLog(@"1.right bottom");
         int ret1 = [interSection solutionWithK:-4 L:1
                                              M:2 N:6
                                              P:0 Q:-1
                                              R:4 S:3]; // right bottom
-        NSLog(@"1.intersection - right bottom = %d", ret1);
+        NSLog(@"1.intersection - right bottom = %d", ret1); // => 42
     }
     {
         NSLog(@"===================================================");
@@ -108,7 +117,7 @@
                                              M:2 N:6
                                              P:-6 Q:-2
                                              R:-2 S:2]; // left bottom
-        NSLog(@"2.intersection - left bottom = %d", ret1);
+        NSLog(@"2.intersection - left bottom = %d", ret1); // => 44
     }
     {
         NSLog(@"===================================================");
@@ -117,7 +126,7 @@
                                              M:2 N:6
                                              P:1 Q:4
                                              R:5 S:8]; // right upper
-        NSLog(@"3.intersection - right upper = %d", ret1);
+        NSLog(@"3.intersection - right upper = %d", ret1); // => 44
     }
     {
         NSLog(@"===================================================");
@@ -126,7 +135,7 @@
                                              M:2 N:6
                                              P:-6 Q:4
                                              R:-2 S:8]; // left upper
-        NSLog(@"4.intersection - left upper = %d", ret1);
+        NSLog(@"4.intersection - left upper = %d", ret1); // => 44
     }
     {
         NSLog(@"===================================================");
@@ -135,7 +144,7 @@
                                              M:2 N:6
                                              P:-6 Q:-2
                                              R:5 S:2]; // bottom
-        NSLog(@"4.intersection - bottom = %d", ret1);
+        NSLog(@"4.intersection - bottom = %d", ret1); // => 74
     }
     
     NSLog(@"===================================================");
