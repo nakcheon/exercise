@@ -35,57 +35,13 @@
     
     [_mergeSort.arrarListOfElementsToSort removeAllObjects];
     
-    // insert    
-    {
+    // insert
+    NSArray* arrayValues = @[@30, @20, @40, @35, @5, @50, @45, @10, @25, @15];
+    [arrayValues enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
         NCSortObject* object = [[NCSortObject alloc] init];
-        object.objectValue = 30;
+        object.objectValue = [obj intValue];
         [_mergeSort insetValue:object];
-    }
-    {
-        NCSortObject* object = [[NCSortObject alloc] init];
-        object.objectValue = 20;
-        [_mergeSort insetValue:object];
-    }
-    {
-        NCSortObject* object = [[NCSortObject alloc] init];
-        object.objectValue = 40;
-        [_mergeSort insetValue:object];
-    }
-    {
-        NCSortObject* object = [[NCSortObject alloc] init];
-        object.objectValue = 35;
-        [_mergeSort insetValue:object];
-    }
-    {
-        NCSortObject* object = [[NCSortObject alloc] init];
-        object.objectValue = 5;
-        [_mergeSort insetValue:object];
-    }
-    {
-        NCSortObject* object = [[NCSortObject alloc] init];
-        object.objectValue = 50;
-        [_mergeSort insetValue:object];
-    }
-    {
-        NCSortObject* object = [[NCSortObject alloc] init];
-        object.objectValue = 45;
-        [_mergeSort insetValue:object];
-    }
-    {
-        NCSortObject* object = [[NCSortObject alloc] init];
-        object.objectValue = 10;
-        [_mergeSort insetValue:object];
-    }
-    {
-        NCSortObject* object = [[NCSortObject alloc] init];
-        object.objectValue = 25;
-        [_mergeSort insetValue:object];
-    }
-    {
-        NCSortObject* object = [[NCSortObject alloc] init];
-        object.objectValue = 15;
-        [_mergeSort insetValue:object];
-    }
+    }];
     
     // sort
     [_mergeSort startSort];

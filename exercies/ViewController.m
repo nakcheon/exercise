@@ -16,6 +16,7 @@
 #import "NCQuickSort.h"
 #import "NCSortObject.h"
 #import "CheckInterSectionBtwTwoRectangles.h"
+#import "NCMergeSort.h"
 
 @interface ViewController ()
 
@@ -47,7 +48,7 @@
     [arrayCharacters addObject:@"a"];
     [arrayCharacters addObject:@"b"];
     [arrayCharacters addObject:@"c"];
-    [arrayCharacters addObject:@"d"];
+    //[arrayCharacters addObject:@"d"];
     NSArray* arrayResult = [exer5 makePermutation:arrayCharacters];
     NSLog(@"%@", arrayResult);
     
@@ -86,6 +87,27 @@
         
         // print
         for (NCSortObject* object in quickSort.arrarListOfElementsToSort) {
+            NSLog(@"sorted result = %d", object.objectValue);
+        }
+    }
+    
+    // merge sort
+    {
+        NCMergeSort* mergeSort = [[NCMergeSort alloc] init];
+        
+        // insert
+        NSArray* arrayValues = @[@30, @20, @40, @35, @5, @50, @45, @10, @25, @15];
+        [arrayValues enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            NCSortObject* object = [[NCSortObject alloc] init];
+            object.objectValue = [obj intValue];
+            [mergeSort insetValue:object];
+        }];
+        
+        // sort
+        [mergeSort startSort];
+        
+        // print
+        for (NCSortObject* object in mergeSort.arrarListOfElementsToSort) {
             NSLog(@"sorted result = %d", object.objectValue);
         }
     }

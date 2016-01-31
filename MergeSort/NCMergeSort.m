@@ -11,7 +11,7 @@
 
 @interface NCMergeSort (privateMethods)
 -(void)privateMergeSortWihtLow:(int)low high:(int)high;
--(void)privateMergeWihtLow:(int)low mid:(int)mid high:(int)high;
+-(void)privateMergeWithLow:(int)low mid:(int)mid high:(int)high;
 @end
 
 @implementation NCMergeSort
@@ -44,10 +44,10 @@
     int mid = (low + high) / 2;
     [self privateMergeSortWihtLow:low high:mid];
     [self privateMergeSortWihtLow:mid+1 high:high];
-    [self privateMergeWihtLow:low mid:mid high:high];
+    [self privateMergeWithLow:low mid:mid high:high];
 }
 
--(void)privateMergeWihtLow:(int)low mid:(int)mid high:(int)high
+-(void)privateMergeWithLow:(int)low mid:(int)mid high:(int)high
 {
     NSMutableArray* arrayBuffer = [[NSMutableArray alloc] init];
     for (int i = 0; i < _arrarListOfElementsToSort.count; ++i) {

@@ -53,7 +53,7 @@
                          right:(int)right
 {
     int nPivotIndex = left;
-    id<NCSortObjectProtocolDelegate> idValue = (id<NCSortObjectProtocolDelegate>)[_arrarListOfElementsToSort objectAtIndex:nPivotIndex];
+    id<NCSortObjectProtocolDelegate> idPivotValue = (id<NCSortObjectProtocolDelegate>)[_arrarListOfElementsToSort objectAtIndex:nPivotIndex];
     
     do {
         id<NCSortObjectProtocolDelegate> idLeftValue = nil;
@@ -65,7 +65,7 @@
                 break;
             }
             idLeftValue = (id<NCSortObjectProtocolDelegate>)_arrarListOfElementsToSort[++left];
-        } while ([idLeftValue objectValue] < [idValue objectValue]);
+        } while ([idLeftValue objectValue] < [idPivotValue objectValue]);
         
         // search right
         do {
@@ -73,7 +73,7 @@
                 break;
             }
             idRightValue = (id<NCSortObjectProtocolDelegate>)_arrarListOfElementsToSort[--right];
-        } while ([idRightValue objectValue] > [idValue objectValue]);
+        } while ([idRightValue objectValue] > [idPivotValue objectValue]);
         
         // compare and swap
         if (left < right) {
@@ -83,7 +83,7 @@
     } while (left < right);
     
     _arrarListOfElementsToSort[nPivotIndex] = _arrarListOfElementsToSort[right];
-    _arrarListOfElementsToSort[right] = idValue;
+    _arrarListOfElementsToSort[right] = idPivotValue;
     
     return right;
 }
